@@ -25,6 +25,10 @@ export const randomArrayValues = (array, count) => {
   );
 };
 
+export function DynamicComponent() {
+  const location = useLocation();
+}
+
 // Footer.jsx Functions
 export function ArrayIterator({ items = [] }) {
   return (

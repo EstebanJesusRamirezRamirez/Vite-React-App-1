@@ -1,16 +1,17 @@
-import { Routes, Route } from "react-router-dom";
-
-// Pages Here
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Inicio from "./pages/Inicio";
 import Formulario from "./pages/Formulario";
 
 // App Here
-function App() {
+
+export default function App() {
   return (
-    <>
-      <Inicio />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Inicio />} />
+        <Route path="/Pedidos" element={<Formulario />} />
+      </Routes>
+    </Router>
   );
 }
-
-export default App;
+App;

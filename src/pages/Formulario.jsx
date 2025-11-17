@@ -1,7 +1,7 @@
-import Header from "../components/Header";
-import Navbar from "../components/Navbar";
-import Main from "../components/Main";
-import Footer from "../components/Footer";
+import Header from "./GeneralLayout/Header";
+import Navbar from "./SpecificLayout/Navbar";
+import InicioMain from "/src/pages/SpecificLayout/InicioMain";
+import Footer from "./GeneralLayout/Footer";
 
 function Formulario() {
   return (
@@ -19,16 +19,16 @@ function Formulario() {
       </header>
       <nav
         style={{ backgroundColor: "rgba(250, 195, 13, 1)" }}
-        className="navbar navbar-expand-lg navbar-light box-shadow-black"
+        className="navbar navbar-expand-lg box-shadow-black"
       >
         <Navbar />
       </nav>
-      {/* <main
-        style={{ backgroundColor: "rgba(230, 230, 230, 1)" }}
+      <main
+        style={{ backgroundColor: "#bf7a9b" }}
         className="px-[10%] py-[40px]"
       >
-        <Main />
-      </main> */}
+        <InicioMain />
+      </main>
       <footer
         style={{
           backgroundColor: "rgb(206, 126, 51)",

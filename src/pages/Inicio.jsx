@@ -1,7 +1,7 @@
-import Header from "../components/Header";
-import Navbar from "../components/Navbar";
-import Main from "../components/Main";
-import Footer from "../components/Footer";
+import Header from "/src/pages/GeneralLayout/Header";
+import Navbar from "/src/pages/SpecificLayout/Navbar";
+import InicioMain from "/src/pages/SpecificLayout/InicioMain";
+import Footer from "/src/pages/GeneralLayout/Footer";
 
 function Inicio() {
   return (
@@ -19,7 +19,7 @@ function Inicio() {
       </header>
       <nav
         style={{ backgroundColor: "rgba(250, 195, 13, 1)" }}
-        className="navbar navbar-expand-lg navbar-light box-shadow-black"
+        className="navbar navbar-expand-lg box-shadow-black"
       >
         <Navbar />
       </nav>
@@ -27,7 +27,7 @@ function Inicio() {
         style={{ backgroundColor: "rgba(230, 230, 230, 1)" }}
         className="px-[10%] py-[40px]"
       >
-        <Main />
+        <InicioMain />
       </main>
       <footer
         style={{
