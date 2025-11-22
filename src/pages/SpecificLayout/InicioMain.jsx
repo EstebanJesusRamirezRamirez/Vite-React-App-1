@@ -73,12 +73,17 @@ function Main() {
   const randomPromos = randomArrayValues(PizzaPromos, 3);
   return (
     <>
-      <div className="container">
-        <div className="row">
-          <ColLeft randomPromos={randomPromos} />
-          <ColRight randomOrders={randomOrders} />
+      <main
+        style={{ backgroundColor: "rgba(230, 230, 230, 1)" }}
+        className="px-[10%] py-[40px]"
+      >
+        <div className="container">
+          <div className="row">
+            <ColLeft randomPromos={randomPromos} />
+            <ColRight randomOrders={randomOrders} />
+          </div>
         </div>
-      </div>
+      </main>
     </>
   );
 }
