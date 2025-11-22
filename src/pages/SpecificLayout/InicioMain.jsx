@@ -10,7 +10,7 @@ function ColLeft({ randomPromos = [] }) {
       >
         <img
           className="img-border-black"
-          src="src/assets/img/Other-img/Sucursales-y-Contactos.jpg"
+          src="public/assets/img/Other-img/Sucursales-y-Contactos.jpg"
           style={{ width: "100%" }}
           alt="Pizza Order"
         />
