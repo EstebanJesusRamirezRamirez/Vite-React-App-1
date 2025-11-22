@@ -50,8 +50,8 @@ export function FacebookImgSrcHover() {
       onMouseLeave={setFalse} // Set to false when mouse leaves
       src={
         isHovered
-          ? "src/assets/img/Other-img/Facebook-Logo-Hover.png"
-          : "src/assets/img/Other-img/Facebook-Logo.png"
+          ? "public/assets/img/Other-img/Facebook-Logo-Hover.png"
+          : "public/assets/img/Other-img/Facebook-Logo.png"
       }
       alt=""
       style={{
@@ -75,8 +75,8 @@ export function RappiImgSrcHover() {
       onMouseLeave={setFalse} // Set to false when mouse leave
       src={
         isHovered
-          ? "src/assets/img/Other-img/Rappi-Logo-Hover.png"
-          : "src/assets/img/Other-img/Rappi-Logo.png"
+          ? "public/assets/img/Other-img/Rappi-Logo-Hover.png"
+          : "public/assets/img/Other-img/Rappi-Logo.png"
       }
       alt=""
       style={{

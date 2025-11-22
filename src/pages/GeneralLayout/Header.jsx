@@ -1,7 +1,7 @@
 function LogoImg() {
   return (
     <img
-      src="src/assets/img/Header-img/Palazzo-diPizza-Logo-EX2.png"
+      src="public/assets/img/Header-img/Palazzo-diPizza-Logo-EX2.png"
       style={{
         height: "120px",
         borderRadius: "20px",
