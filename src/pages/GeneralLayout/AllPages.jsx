@@ -8,7 +8,7 @@ function UpperBody() {
     <>
       <link
         rel="icon"
-        href="/src/assets/img/Header-img/Palazzo-diPizza-Logo-EX1.png"
+        href="/public/assets/img/Header-img/Palazzo-diPizza-Logo-EX1.png"
       ></link>
       <header
         className="p-3"
